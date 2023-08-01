@@ -1,0 +1,28 @@
+.navbar-lewagon {
+  justify-content: space-between;
+  /* background: white; */
+  background: transparent;
+  border: 0;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
+
+/* .name-logo {
+  --fnt: normal normal normal 16px/1.4em futura-lt-w01-light,futura-lt-w05-light,sans-serif;
+} */
+
+.name-logo {
+  /* font-family: Arial,Helvetica,sans-serif;
+  font-size: 10px; */
+  color: darkolivegreen;
+}
