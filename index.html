@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" /> -->
 </head>
 <body>
   <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
@@ -42,7 +44,7 @@
     </div>
   </div>
 
-  <div class="banner" style="background-image: url('images/2.png');">
+  <div class="banner" style="background-image: url('images/2.png');" data-aos="zoom-in-down" data-aos-duration="1500">
     <!-- <div class="container">Banner Logo</div> -->
   </div>
 
@@ -50,7 +52,7 @@
 
     <div class="container mt-2 mb-5">
       <div class="row about-cont">
-        <div class="col-4">
+        <div class="col-4" data-aos="fade-right" data-aos-duration="500">
           <div class="row">
             <div class="col-12">
               <img src="images/IMG_0298 2.jpeg" alt="RaphaDornellas" class="img-about">
@@ -60,7 +62,7 @@
             </div>
           </div>
         </div>
-        <div class="col-8 about-text-justify">
+        <div class="col-8 about-text-justify" data-aos="fade-left" data-aos-anchor-placement="top-center" data-aos-duration="3000">
           <h2>About</h2>
           <h3>Hello and welcome to my page!</h3>
           <p>
@@ -144,9 +146,14 @@
     </div>
   </div>
   <!-- Scripts -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script> -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="index.js"></script>
   <script src="node_modules/jquery/dist/jquery.min.js"></script>
   <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script>
+    AOS.init(); // Initialize AOS
+  </script>
 </body>
 </html>
