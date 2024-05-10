@@ -34,6 +34,30 @@
   height: 60vh;
 } */
 
+.gif-background {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.gif {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1; /* Place the GIF behind other content */
+}
+
+.container-intro {
+  position: relative;
+  z-index: 1; /* Ensure content is above the GIF */
+  text-align: right;
+  color: white; /* Adjust text color for visibility */
+  margin: 30% 10%;
+}
+
 .about-cont {
   padding: 60px;
 }
