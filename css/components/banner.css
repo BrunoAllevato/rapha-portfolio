@@ -17,3 +17,15 @@
   padding: 20px; /* Adjust the padding as needed */
   filter: drop-shadow(2px 4px 30px black);
 }
+
+.logo-rapha {
+  background-size: contain; /* Adjusting background size */
+  background-repeat: no-repeat;
+  background-position: center left -15px;
+  width: 500px; /* Set a fixed width for the .banner element */
+  height: 499px; /* Set a fixed height for the .banner element */
+  margin: 0 auto; /* Center the .banner element horizontally */
+  padding: 20px; /* Adjust the padding as needed */
+  filter: drop-shadow(2px 4px 30px black);
+  filter: drop-shadow(0px 0px 0px black);
+}

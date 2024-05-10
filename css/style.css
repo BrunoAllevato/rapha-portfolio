@@ -46,8 +46,9 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   z-index: -1; /* Place the GIF behind other content */
+  object-fit: cover;
 }
 
 .container-intro {
@@ -55,7 +56,43 @@
   z-index: 1; /* Ensure content is above the GIF */
   text-align: right;
   color: white; /* Adjust text color for visibility */
-  margin: 30% 10%;
+  /* margin: 30% 10%; */
+  margin: 0 auto;
+  padding: 2% 10%;
+}
+
+.therapy-h2 {
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+.therapy-p {
+  filter: drop-shadow(0px 0px 1px black);
+}
+
+.sartre-cont {
+  position: relative;
+  z-index: 1; /* Ensure content is above the GIF */
+  text-align: right;
+  color: white; /* Adjust text color for visibility */
+  /* margin: 30% 10%; */
+  margin: 0 auto;
+  padding: 10%;
+}
+
+.sartre-frase{
+  filter: drop-shadow(2px 4px 6px black);
+  font-size: x-large;
+}
+
+.autor-sartre {
+  position: relative;
+  z-index: 1; /* Ensure content is above the GIF */
+  text-align: right;
+  color: white; /* Adjust text color for visibility */
+  /* margin: 30% 10%; */
+  filter: drop-shadow(0px 0px 1px black);
+  font-size: large;
+  font-weight: bold;
 }
 
 .about-cont {
